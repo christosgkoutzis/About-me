@@ -1,0 +1,41 @@
+/* Stylesheet that applies only to index.html since it's implemented with HTML and CSS only */
+
+@media (max-width: 750px){
+
+    #hero-section{
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 750.02px){
+    #hero-section{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+#hero-section{
+    display: grid;
+    column-gap: 120px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+
+}
+
+.hero-picture{
+    width: 380px;
+    object-fit: contain;
+    border-radius: 180px;
+    border-top-right-radius: 0;
+}
+
+#over-header{
+  color: gray;
+}
+
+#description{
+    font-size: 18px;
+    margin-bottom: 40px;
+}

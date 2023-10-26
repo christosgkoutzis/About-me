@@ -1,0 +1,136 @@
+/* Stylesheet that applies to all pages */
+
+body{
+    font-family: "Segoe UI", "Poppins", Arial, sans-serif;
+}
+
+main{
+    position: relative;
+    z-index: 0;
+    margin-top: 110px;
+    margin-left: 120px;
+    margin-right: 20px;
+}
+
+@media (max-width: 750px){
+
+    main{
+        margin: 20px;
+    }
+}
+
+h2{
+    font-size: 56px;
+}
+
+a{
+    color: black;
+    transition: color, 0.3s;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+}
+
+header{
+    background-color: white;
+    height: 60px;
+    position: fixed;
+    left: 120px;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    font-size: 18px;
+}
+
+.header-nav{
+    display: grid;
+    width: 400px;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+
+header a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sidebar{
+    width: 120px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    font-size: 18px;
+}
+
+@media (max-width: 750px){
+    header{
+        opacity: 0;
+    }
+}
+
+@media (max-width: 1000px){
+    .sidebar{
+        opacity: 0;
+    }
+
+    header{
+        left: 0;
+    }
+}
+
+#logo{
+    font-family: "Poppins";
+    font-size: 56px;
+    font-style: italic;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#logo:hover{
+    color: red;
+}
+
+#social-media{
+    list-style-type: none;
+    text-align: left;
+    padding-left: 14px;
+    text-decoration: underline;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.tour-button{
+    border: none;
+    border-radius: 9px;
+    padding: 10px 24px;
+    color: white;
+    font-size: 18px;
+}
+
+.tour-button:hover, .btn-primary:hover{
+    background-color: red;
+    color: black;
+}
+
+.tour-button, .btn-primary{
+    background-color: blue;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline-primary{
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline-primary:hover{
+    background-color: blue;
+}
