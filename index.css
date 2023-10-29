@@ -4,8 +4,8 @@
 
     #hero-section{
         grid-template-columns: 1fr;
-        row-gap: 50px;
-        padding: 20px;
+        row-gap: 7.68vh;
+        padding: 1.46vw;
     }
 }
 
@@ -17,17 +17,17 @@
 
 #hero-section{
     display: grid;
-    column-gap: 120px;
+    column-gap: 8.78vw;
     justify-content: center;
     align-items: center;
-    padding: 0px 20px;
+    padding: 0px 1.46vw;
 
 }
 
 .hero-picture{
-    width: 380px;
+    width: 27.81vw;
     object-fit: contain;
-    border-radius: 180px;
+    border-radius: 13.17vw;
     border-top-right-radius: 0;
 }
 
@@ -35,7 +35,17 @@
   color: gray;
 }
 
-#description{
-    font-size: 18px;
-    margin-bottom: 40px;
+#description, .hero-picture{
+    font-size: 1.125rem;
+}
+
+#description{  
+    margin-bottom: 6.14vh;
+}
+
+.tour-button{
+    border: none;
+    border-radius: 9px;
+    padding: 1.53vh 1.75vw;
+    color: white;
 }
