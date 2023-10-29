@@ -3,7 +3,7 @@
 <p align="center">GitHub pages link: </p>
 
 <p align="center">
-  <img src="icons/page-screenshot.PNG" alt="dashboard" width=80%>
+  <img src="screenshots/home.PNG" alt="dashboard" width=80%>
 </p>
 
 <p align="center">
@@ -44,6 +44,11 @@ The website, although completely static as it has no backend interaction, uses s
 <summary>
 Home
 </summary> <br />
+<p align="center">
+  <img src="screenshots/home.PNG" alt="dashboard" width=80%>
+</p>
+
+  - This page was created using only HTML and CSS. The horizontal elements (see screenshot if on mobile) are developed using CSS grid and are responsive to different screen sizes using CSS media queries.
 
 </details>
 
@@ -51,6 +56,11 @@ Home
 <summary>
 Work
 </summary> <br />
+<p align="center">
+  <img src="screenshots/work.PNG" alt="dashboard" width=80%>
+</p>
+
+ - The structure of this page was developed using Bootstrap grid and Bootstrap card (responsive-ready) elements.
 
 </details>
 
@@ -58,6 +68,14 @@ Work
 <summary>
 Hobbies
 </summary> <br />
+<p align="center">
+  <img src="screenshots/hobbies-1.PNG" alt="dashboard" width=80%>
+</p>
+<p align="center">
+  <img src="screenshots/hobbies-2.PNG" alt="dashboard" width=80%>
+</p>
+
+ - Bootstrap is again the protagonist of this page's structure as it is developed using its responsive headings, carousel and table components
 
 </details>
 
@@ -65,7 +83,14 @@ Hobbies
 <summary>
 Other
 </summary> <br />
+<p align="center">
+  <img src="screenshots/other.PNG" alt="dashboard" width=80%>
+</p>
 
+  - The Bootstrap components implemented on this page are the radio-button form, the cards and the accordion menu
+
+  - To add some interacivity to the page (regarding the submission of the radio-button and the favorite color forms by the user) JavaScript event listeners and query selectors were used
+   
 </details>
 
 ## Roadmap
