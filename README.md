@@ -1,6 +1,6 @@
 
 <h1 align="center">Want to learn more about me? You are in the right place 😆</h1>
-<p align="center">GitHub pages link: </p>
+<p align="center">GitHub pages link: https://christosgkoutzis.github.io/About-me/</p>
 
 <p align="center">
   <img src="screenshots/home.PNG" alt="dashboard" width=80%>
