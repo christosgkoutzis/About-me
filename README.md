@@ -107,4 +107,10 @@ None
 
 ## License
 
-This project is under the default licensing policy of GitHub.  
+As this project was initially created as a solution to a PSet of CS50x (although not a direct solution), is under the default licensing policy of GitHub because of CS50's academic policy. The only reasons the source code is public are the GitHub pages feature and the possibility for no-code feedback on the project.
+
+Remember:
+
+> When you make a creative work (which includes code), the work is under exclusive copyright by default. Unless you include a license that specifies otherwise, nobody else can copy, distribute, or modify your work without being at risk of take-downs, shake-downs, or litigation. Once the work has other contributors (each a copyright holder), “nobody” starts including you.
+
+More info <a href="https://choosealicense.com/no-permission/">here</a> and <a href="https://opensource.guide/legal/">here</a>
